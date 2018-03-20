@@ -12,10 +12,10 @@
 			<button><a href="/new_user" style="padding: 2em; text-decoration: none;">Búa til notanda</a></button>
 			<h1>Panta hér</h1>
 			<form action="/kvittun">
-					Fullt nafn: <input type="text" name="name" placeholder="Jóhannes Pétur" title="Sláðu inn nafn" required>
-					Heimilisfang: <input type="text" name="heimilisfang" placeholder="Hallveigarstíg 56" title="Sláðu inn heimilisfang" required>
-					Simi: <input type="simi" name="simi" placeholder="684 9324" pattern="\d{3}(?:[\-\s]?)\d{4}" title="Sláðu inn 7 tölustafi" required>
-					Email: <input type="email" name="email" placeholder="abcd@abcd.com" title="Sláðu inn email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+					Fullt nafn: <input type="text" name="name" placeholder="Jón Jónsson" title="Sláðu inn nafn" required>
+					Heimilisfang: <input type="text" name="heimilisfang" placeholder="Laugarvegur 1" title="Sláðu inn heimilisfang" required>
+					Simi: <input type="simi" name="simi" placeholder="581 2345" pattern="\d{3}(?:[\-\s]?)\d{4}" title="Sláðu inn 7 tölustafi" required>
+					Email: <input type="email" name="email" placeholder="jon@jonsson.is" title="Sláðu inn email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
 					<h1>Pizzustærð</h1>
 					<h3>Hvað stærð má bjóða þér?</h3>
 					<input type="radio" name="pizzasize" value="9", id="9" checked><label for="9">9 tommu - 1000 kr </label>
@@ -57,7 +57,7 @@
 			
 		</article>
 	</section>
-	<footer><h6>Daníel Þór Gestsson</h6></footer>
+	<footer><h6>Guðmundur B. Brynleifsson</h6></footer>
 
 </body>
 </html>
